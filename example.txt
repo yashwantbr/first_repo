@@ -1,1 +1,2 @@
 Git practice for the first time. thursday
+This is in the vs code
