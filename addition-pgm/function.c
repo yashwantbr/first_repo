@@ -1,5 +1,6 @@
 #include "header.h"
 
+//addition function
 void add_function(int Parameter_a, int Parameter_b)
 {
     int Addition;
@@ -8,7 +9,5 @@ void add_function(int Parameter_a, int Parameter_b)
 
     Addition = Fun_var_1 + Fun_var_2;
 
-
-    
     printf("Addition of two numbers = %d", Addition);
 }
