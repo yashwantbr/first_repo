@@ -14,4 +14,5 @@ int main(void)
     printf("value of Var_1 = %d, *Ptr = %d, Var_2 = %d,", Var_1, *Ptr, Var_2);
 
     return 0;
+    
 }
