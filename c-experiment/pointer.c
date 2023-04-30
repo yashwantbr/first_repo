@@ -26,6 +26,11 @@ int main(void)
     arr_ptrVar = arr_ptrVar + 1; //pointer arithmetic
     printf("arr_ptrVar = %d\n", *arr_ptrVar);
     printf("address of arr_ptrVar = %u\n", arr_ptrVar);
+
+    //dangling pointer is a pointer where we use to access the value of a deallocated (free) memory that leads to crash
+    //A null pointer in C is a pointer that points to no memory address, or to an invalid memory address. 
+    // In other words, it does not point to any actual memory location. 
+    // The value of a null pointer is usually represented as the constant NULL, which is defined in the stddef.h header file.
     
 
     return 0;
