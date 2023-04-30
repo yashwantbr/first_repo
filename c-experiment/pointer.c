@@ -21,9 +21,11 @@ int main(void)
     int *arr_ptrVar = &arr[0]; //array pointer
         
     printf("*arr_ptrVar = %d\n", *arr_ptrVar);
+    printf("address of arr_ptrVar = %u\n", arr_ptrVar);
     
     arr_ptrVar = arr_ptrVar + 1; //pointer arithmetic
-    printf("arr_ptrVar = %d", *arr_ptrVar);
+    printf("arr_ptrVar = %d\n", *arr_ptrVar);
+    printf("address of arr_ptrVar = %u\n", arr_ptrVar);
     
 
     return 0;
